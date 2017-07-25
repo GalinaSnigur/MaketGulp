@@ -1,0 +1,275 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid;
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid;
+	
+}
+body {
+	font-family: 'RobotoMedium', sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'RobotoLight', fantasy;
+}
+
+h3{
+	color: 	#A0522D;
+	font-family: 'RobotoBold', fantasy;
+}
+
+.top_header{
+	background-color: #4AAAD2;
+}
+
+.header_topline {
+	background-color: #fff;
+	padding: 15px 0;
+	color: #fff;
+}
+
+.header_topline a {
+	color: #fff;
+}
+
+.top_logo {
+    float: left;
+}
+
+.menu_button{
+	border: medium none;
+	background-color: transparent;
+	font-size: 26px;
+	color: #F4A460;
+	padding: 8px 15px 0px;
+}
+
+.menu{
+	float: right;
+	color: #F4A460;
+	margin-bottom: 20px;
+}
+
+.menu a{
+	color: #F4A460;
+	padding: 15px;
+	display: block;
+	transition: all .25s;
+}
+
+.menu a:hover{
+	text-decoration: underline;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+	z-index: 12;
+} 
+
+.menu ul li{
+	display: inline-block;
+}
+
+.slider_container img{
+	max-width: 100%;
+}
+
+.slider_container {
+	position: relative;
+}
+
+.next_button,
+.prev_button{
+	color: #fff;
+	font-size: 46px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    top:40%;
+    background-color: rgba(255,255,255, .4);
+    padding: 0 25px;
+    border-radius: 50%;
+}
+
+.next_button{
+	right: 20px;
+}
+
+.prev_button{
+	left: 20px;
+}
+
+.order{
+	padding: 25px 0px;
+}
+
+.sell_descr{
+	font-size: 22px;
+	padding-top: 5px;
+	color: #F4A460;
+}
+
+.button{
+	display: block;
+	border: none;
+	background-color: #F4A460;
+	color:#fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.button:hover{
+	background-color: #FFA500;
+}
+
+.button:active{
+	background-color: #F4A460;;
+}
+
+.sell_right .button{
+	float: right;
+}
+
+.hidden{
+	display: none;
+}
+
+.pop_form input[type="text"]{
+	display: block;
+	width: 90%;
+	line-height: 24px;
+	margin-bottom: 12px;
+	border:#999 3px solid;
+	outline: none;
+}
+
+.pop_form .button{
+	margin: 15px auto 0;
+}
+
+.pop_form h3{
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	font-family:"RobotoBold", serif;
+	text-transform: uppercase; 
+}
+
+.blog_item img{
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+
+.blog_item h3{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.blog_item p{
+	margin-top: 0;
+}
+
+.read_more{
+	margin:0 auto;
+	height: 30px;
+	width: 120px;
+	background-color: #F4A460;
+	color:#fff;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 30px;
+}
+
+.read_more a{
+	color: #fff;
+}
+
+.right_aside{
+	margin-top: 30px;
+	padding: 15px 20px;
+	border-radius:5px;
+    background-color: #EEE;
+}
+
+
+footer{
+	height: 200px;
+	text-align: center;
+	background-color: #eee;
+}
+
+
+footer .logo {
+	font-family: "RobotoBold", fantasy;
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 45px;
+}
+
+footer p{
+	color: rgb(169,169,169);
+	margin-top: 20px;
+}
+
+.footer_icons{
+	margin-top: 35px;
+	margin-bottom: 90px;
+}
+
+.footer_icons .fa-stack-1x{
+	color: #fff;
+}
+
+.tanzaniya_info img{
+	 height: 400px;
+	 width: 600px;
+	margin-right: 10px;
+	 max-width: 100%;
+	 margin-bottom: 15px;
+ }
+
+.tanzaniya_info h3{
+	text-align: center;
+}
+
+.tanzaniya_info{
+	margin-left: 30px;
+}
+
+
+
+
+
